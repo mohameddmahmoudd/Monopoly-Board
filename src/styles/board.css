@@ -48,3 +48,25 @@ body{
     min-height: 80px;
 }
 
+#center-images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+#center-images img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    transform: rotate(-45deg);
+}
