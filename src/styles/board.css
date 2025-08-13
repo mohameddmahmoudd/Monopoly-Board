@@ -48,6 +48,13 @@ body{
     min-height: 80px;
 }
 
+/* Make corner squares wider */
+.corner-cell {
+    flex: 0 0 12.5% !important;
+    max-width: 12.5% !important;
+    min-width: 12.5% !important;
+}
+
 #center-images {
     position: absolute;
     top: 50%;
@@ -69,4 +76,18 @@ body{
     height: auto;
     margin-bottom: 10px;
     transform: rotate(-45deg);
+}
+
+.align-right-under-corner {
+    margin-left: 8.3333%;
+}
+
+.group-1 { background-color: #ffe082; }
+.group-2 { background-color: #b2ff59; }
+.group-3 { background-color: #80d8ff; }
+.group-4 { background-color: #ff8a80; }
+
+.start-cell:hover
+{
+    background-color: red; 
 }
