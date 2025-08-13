@@ -78,6 +78,10 @@ body{
     transform: rotate(-45deg);
 }
 
+#center-images img:hover{
+    transform: rotate(45deg);
+}
+
 .align-right-under-corner {
     margin-left: 8.3333%;
 }
@@ -87,7 +91,8 @@ body{
 .group-3 { background-color: #80d8ff; }
 .group-4 { background-color: #ff8a80; }
 
-.start-cell:hover
+.start-cell:active
 {
     background-color: red; 
 }
+
